@@ -1,0 +1,43 @@
+.listproducts li a{
+    font-family: 'Dancing';
+    font-weight: 600;
+    font-size: 3em;
+    text-decoration:none;
+    color: rgb(121, 67, 136);
+}
+.listproducts li a:hover {
+    color: #bebcbc;
+
+}
+.listproducts li{
+    margin: 15px;
+}
+.listproducts{
+    margin-top: 50px;
+}
+.belowmenu{
+    margin-bottom: 130px;
+}
+#infoproducts p{
+    font-size: 1.25em;
+}
+#listcontainer img{
+    margin: 10px;
+}
+.product{
+    margin-bottom: 30px;
+}
+.product p{
+    margin-block-start: 0.25em!important;
+    font-size: 1.10em;
+}
+#listcontainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+#titlecontainer p{
+    font-size: 1.25em;
+}
+

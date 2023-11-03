@@ -1,0 +1,46 @@
+#infocommunity p{
+    font-size: 1.25em;
+    padding: 20px 40px;
+    margin: 20px;
+    word-break: normal;
+}
+.listpartners li a{
+    font-family: 'Dancing';
+    font-weight: 600;
+    font-size: 3em;
+    text-decoration:none;
+    color: rgb(121, 67, 136);
+}
+.listpartners li a:hover {
+    color: #bebcbc;
+
+}
+.listpartners li{
+    margin: 15px;
+}
+.listpartners{
+    margin-top: 50px;
+}
+.belowmenu{
+    margin-bottom: 100px;
+}
+#titlecontainer p{
+    font-size: 1.25em;
+}
+
+.members{
+    margin-bottom: 10px;
+}
+.members p{
+    margin-block-start: 0.25em!important;
+    font-size: 1.10em;
+}
+#listcontainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.members img{
+    margin: 10px;
+}

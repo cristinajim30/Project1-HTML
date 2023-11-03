@@ -1,0 +1,109 @@
+form{
+    padding: 40px;
+    max-width: 80%;
+    box-shadow: 0px 0px 4px grey;
+    border-radius: 6px;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    margin: 40px 20px;
+    display: inline-block;
+}
+
+input, textarea{
+    font-size: 16px;
+    width: 95%;
+    color: rgb(73, 72, 72);
+    border: none;
+    border-bottom: 1px solid rgb(144, 41, 158);;
+    outline: none;
+    padding: 15px;
+    font-family: 'Poppins';
+    font-weight:600;
+
+}
+textarea{
+    resize: none;
+}
+select{
+    font-size: 16px;
+    width: 20%;
+    color: rgb(73, 72, 72);
+    border: none;
+    border-bottom: 1px solid rgb(144, 41, 158);;
+    outline: none;
+    padding: 15px;
+    font-family: 'Poppins';
+    font-weight:600;
+
+    
+}
+
+label{
+    text-align: left;
+    padding: 20px 10px;
+}
+.contact_container{
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+ 
+}
+.contact_container p{
+    font-size: 1.25em;
+}
+.country_container{
+    display: flex;
+}
+.buttom{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#boton{
+    background-color: rgb(121, 67, 136);
+    border-radius: 3px;
+    border: 2px solid rgb(92, 51, 114);
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    width: 20%;
+    padding: 15px;
+    text-align: center;
+    
+}
+#boton:hover{
+    cursor: pointer;
+    background: #a957d4;
+    transition: all .3s ease;
+
+}
+
+#stores_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px 20px;
+}
+#stores_container img{
+    margin: 10px;
+}
+
+.store{
+    margin-bottom: 30px;
+}
+.store p{
+    margin-block-start: 0.25em!important;
+    font-size: 1em;
+}
+.store h2{
+    font-size: 1.30em;
+    margin-block-start: 0em!important;
+    margin-block-end: 0.5em!important;
+}
+.infostores{
+    font-size: 1.25em;
+}

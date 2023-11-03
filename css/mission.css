@@ -1,0 +1,38 @@
+#infomission{
+    margin:50px;
+}
+#infomission p{
+    font-size: 1.25em;
+    padding: 10px 30px;
+    margin: 20px;
+    word-break: normal;
+}
+#infomission h3{
+    font-size: 2em;
+    color: rgb(121, 67, 136);
+    margin-block-start: 0.5em!important;
+    margin-block-end: 0em!important;
+}
+#world{
+    border-radius:150px;
+}
+.listenviro li a{
+    font-family: 'Dancing';
+    font-weight: 600;
+    font-size: 3em;
+    text-decoration:none;
+    color: rgb(121, 67, 136);
+}
+.listenviro li a:hover {
+    color: #bebcbc;
+
+}
+.listenviro li{
+    margin: 15px;
+}
+.listenviro{
+    margin-top: 50px;
+}
+.belowmenu{
+    margin-bottom: 100px;
+}
