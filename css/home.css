@@ -30,11 +30,20 @@ body {
     margin: 0;
     padding: 0;
 }
-.footer{
+.maincontainer{
     position: relative;
+    min-height: 100vh;
+}
+.belowmenu{
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 3rem; /*footer height*/
+}
+.footer{
+    position: absolute;
     bottom: 0;
-    min-width: 100%;
-    height: 3rem;
+     width: 100%;
+    height: 3rem;            /* Footer height */
     text-align: center;
     background: #fac6f5;
     padding-top: 20px;
@@ -118,10 +127,7 @@ ul{
     margin: 5px;
     margin-left: 50px;
 }
-.belowmenu{
-    justify-content: center;
-    text-align: center;
-}
+
 #images{
     margin-bottom: 30px;
 }
